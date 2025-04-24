@@ -14,7 +14,7 @@ import asyncio
 
 # Загружаем токен бота
 load_dotenv()
-TOKEN = ""
+TOKEN = os.getenv('TOKEN')
 
 # Инициализируем диспетчер
 dp = Dispatcher()
